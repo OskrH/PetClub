@@ -5,6 +5,7 @@ import insta from './imagenes/insta.png'
 import face from './imagenes/face.png'
 import twt from './imagenes/twt.png'
 import tiktok from './imagenes/tiktok.png'
+import patitas from './imagenes/patitas.png'
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
       <a  href="https://play.google.com/store/apps" > <img src={complet} alt="" /></a>
       </nav>
       <div>
-        <img className='imagen2' src="https://s3-alpha-sig.figma.com/img/28f7/2223/9e7c58402693c2eeb6fe1cfb5ab73e19?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R0AlF4YlbE-tj2OfYoBdz8iAcY-LgxfnRjYT2Qpi7Vog1BwWGHb4MDbrQUQ4MxJhxr4REy~yW9H9GlfVV5gSxM~oUvV5vGVkcOq-ytjvQGzK60vixFulajwz8i32QgRCCABrUNnldZokj0TBgYSmP9m0Kr~2Ff268D358rkrH~kVUbU-jFROGf2Mh9nV2fmk-00CycvhnBdgm8Z9g2EaJZzmbK9PaLWi863qBMQ6psu1L6y5VcD3voQj3JX2UI19S~8nqyZ6-OuI0VFuVSCoxt9E22vmeFIBZ8qqI6um-u0ne8EuUXzf9CibTU7G9mWbu8Ztc4nQXZ2yZvzAfEIwzA__" alt="" />
+        <img className='imagen2' src={patitas} alt="" />
       </div>
     </section>
     <section className='seccion2'>
